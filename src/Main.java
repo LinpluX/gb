@@ -10,7 +10,7 @@ public class task1 {
         String line2 = line1.replace("}","");
         String line3 = line.replace("\"","");
         System.out.println(line3);
-        StringBuilder relust = new StringBuilder("select * from students where");
+        StringBuilder result= new StringBuilder("select * from students where");
 
         String [] arraydata = line3.split(",");
         for (int i = 0; i < arraydata.length; i++){
